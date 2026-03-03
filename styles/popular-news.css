@@ -5,20 +5,6 @@
     padding-bottom: 24px;
 }
 
-.popular-news .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid var(--stroke-color);
-    padding-top: 12px;
-}
-
-.popular-news .more-info {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
 .popular-news .news img {
     width: 292px;
     height: 100%;

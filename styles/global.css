@@ -56,6 +56,10 @@ span {
     font: var(--text-span);
 }
 
+p {
+    font: var(--text);
+}
+
 .badge {
     display: inline-block;
     align-self: flex-start;
@@ -67,4 +71,18 @@ span {
     font: var(--text-sm);
     letter-spacing: 4%;
     box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--stroke-color);
+    padding-top: 12px;
+}
+
+.more-info {
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
