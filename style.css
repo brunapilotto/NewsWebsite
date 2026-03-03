@@ -113,7 +113,8 @@ h1 {
 .badge {
     display: inline-block;
     align-self: flex-start;
-    padding: 4px;
+    padding-inline: 8px;
+    padding-block: 4px;
     border-radius: 4px;
     background-color: var(--brand-color-dark);
     color: var(--text-color-primary);
