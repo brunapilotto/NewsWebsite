@@ -14,7 +14,7 @@
 
     --font-family: "Archivo", sans-serif;
     --text-h1: 800 24px/135% var(--font-family);
-    --text-h2: 800 16px/140% var(--font-family);
+    --text-h2: bold 16px/140% var(--font-family);
     --text-h3: 800 14px/140% var(--font-family);
     --text-span: 600 14px/145% var(--font-family);
     --text: 14px/160% var(--font-family);
@@ -26,4 +26,25 @@ body {
     max-width: 1280px;
     margin: auto;
     background-color: var(--background-color);
+}
+
+.navbar-primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+    padding-block: 20px;
+    font: var(--text-h2);
+}
+
+.menu, .search {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.navbar-primary .logo {
+    color: var(--brand-color-light);
+    font-size: 24px;
+    line-height: 24px;
 }
