@@ -48,3 +48,18 @@ body {
     font-size: 24px;
     line-height: 24px;
 }
+
+.navbar-secondary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 14px;
+    padding-inline: 32px;
+    font: var(--text-span);
+    border-top: var(--stroke-color) 1px solid;
+    border-bottom: var(--stroke-color) 1px solid;
+}
+
+.navbar-secondary span:nth-child(1):hover {
+    color: var(--brand-color-light);
+}
