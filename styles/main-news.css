@@ -3,7 +3,7 @@
     gap: 16px;
 }
 
-.news-card {
+.relevant-news .news-card {
     position: relative;
     overflow: hidden;
     border-radius: 4px;
@@ -15,7 +15,7 @@
     height: 100%;
 }
 
-.news-content {
+.relevant-news .news-content {
     inset: 0;
     top: 50%;
     background: linear-gradient(180deg, transparent 0%, #020617 100%);

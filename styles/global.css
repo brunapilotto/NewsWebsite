@@ -31,6 +31,7 @@ body {
 
 main {
     display: flex;
+    flex-direction: column;
     gap: 80px;
     padding-inline: 32px;
     padding-block: 40px;
@@ -49,6 +50,10 @@ h2 {
 h3 {
     color: var(--text-color-primary);
     font: var(--text-h3);
+}
+
+span {
+    font: var(--text-span);
 }
 
 .badge {
